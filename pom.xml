@@ -19,6 +19,14 @@
 		<kotlin.version>1.3.72</kotlin.version>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>-hedvig-hedvig-java</id>
+			<name>hedvig-hedvig-java</name>
+			<url>https://api.bintray.com/maven/hedvig/hedvig-java/rest-clients/;publish=1</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
