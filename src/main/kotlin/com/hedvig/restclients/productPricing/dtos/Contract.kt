@@ -3,7 +3,7 @@ package com.hedvig.restclients.productPricing.dtos
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.time.Instant
 import java.time.LocalDate
-import java.util.*
+import java.util.UUID
 import javax.money.CurrencyUnit
 
 data class Contract(
